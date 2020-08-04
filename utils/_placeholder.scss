@@ -1,0 +1,51 @@
+/* @extend*/
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%padding-tb {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+%padding-tb-mb {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+%font-small {
+  font-size: 14px;
+  line-height: 16px;
+}
+%font-big {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+%font-big-mb {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+}
+%is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+%overflow-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
